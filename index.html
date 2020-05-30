@@ -1,17 +1,49 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Google Homepage</title>
-    <link rel="Stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section>
+    <div class="container">
+        <nav>
+            <ul class="Navigation">
+                <li>About</li>
+                <li>Store</li>
+                <li>Gmail</li>
+                <li>Images</li>
+                <li>Sign In</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div>
+    
     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
-    <form action="" method="POST">
-        <input type="text"
+    <form action="#" method="POST">
+        <input type="text" name="search" id="search">
     </form>
-    </section>
-        
+    
+    <br>
+
+    </div>
+        <button class="google-search" type="submit" name="Google Search" value="Google Search">Google Search</button>
+        <button class="lucky" type="submit" name="I'm Feeling Lucky" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+    </div>
+
+    <footer>
+        <ul class="footer">
+            <li><a href="#" class="foot">Advertising</a></li>
+            <li><a href="#" class="foot">Business</a></li>
+            <li><a href="#" class="foot">How Search Works</a></li>
+
+        </ul>
+    </footer>
     
 </body>
+
+</html>
