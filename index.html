@@ -5,44 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav>
-            <ul class="Navigation">
-                <li>About</li>
-                <li>Store</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>Sign In</li>
-            </ul>
-        </nav>
-    </div>
-
-    <div>
     
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
-    <form action="#" method="POST">
-        <input type="text" name="search" id="search">
-    </form>
     
-    <br>
-
+    <div class="header-left">
+        <a href="#">About</a>
+        <a href="#">Store</a>
     </div>
-        <button class="google-search" type="submit" name="Google Search" value="Google Search">Google Search</button>
-        <button class="lucky" type="submit" name="I'm Feeling Lucky" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+    
+    <div class="header-right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <button>Sign In</button>
     </div>
 
-    <footer>
-        <ul class="footer">
-            <li><a href="#" class="foot">Advertising</a></li>
-            <li><a href="#" class="foot">Business</a></li>
-            <li><a href="#" class="foot">How Search Works</a></li>
+    <div class="main">
+        <div class="logo-img">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
 
-        </ul>
-    </footer>
+        <div class="search-box">
+            <input type="text" name="search" id="search">
+        </div>
+    
+        <div class="btn">
+            <button class="btn1" type="button" name="button">Google Search</button>
+            <button class="btn2" type="button" name="button">I'm Feeling Lucky</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+
+        <div class="footer-right"><!--Right footer still needs adjusting-->
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
     
 </body>
 
