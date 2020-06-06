@@ -6,6 +6,7 @@ body {
 
 .header-left {
     float: left;
+    
 }
 
 .header-left a {
@@ -92,9 +93,15 @@ body {
 }
 /*Right footer still needs adjusting*/
 .footer-right {
-    float: right;
+    display: inline-block;
     height: 35px;
     bottom: 0px;
+    padding-left: 27px;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+
 }
 
 .footer-left, .footer-left a, .footer-right, .footer-right a {
