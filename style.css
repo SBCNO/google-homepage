@@ -1,113 +1,65 @@
 body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-left {
-    float: left;
-    
+ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-
-.header-left a {
-    margin: 10px;
+#header-left {
+    position: fixed;
+    top: 0;
+    text-align: left;
 }
-
-.header-right {
-    float: right;
+#header-right {
+    position: relative;
+    top: 0;
+    text-align: right;
+    margin-right: 20px;
 }
-
-.header-right a, .header-right button, .header-left, .header-left a {
-    margin: 10px;
-    color: #000;
-    text-decoration: none;
+img {
+    height: 120px;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.header-right button {
-    background: #4484F1;
-    padding: 8px;
-    font-size: 15px;
-    color: #fff;
-    border-radius: 10%;
-    font-weight: bold;
-    cursor: pointer;
+input[type="text"] {
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 5px;
+    width: 500px;
 }
-
-.main{
+.center {
     text-align: center;
 }
 
-.logo-img img {
-    width: 500px;
-    height: 150px;
-    margin-top: 15%;
-    margin-left: 100px;
-    
-}
-
-.search-box input {
-    height: 30px;
-    width: 700px;
-    margin: 4px;
-    padding: 8px;
-    border: 1px solid gray;
-    border-radius: 25px;
-
-
-}
-
-.btn1 {
-    height: 40px;
-    width: auto;
-    color: #646464;
-    background: #f2f2f2;
-    border: none;
-    cursor: pointer;
-    margin: 4px;
-}
-
-.btn2 {
-    height: 40px;
-    width: auto;
-    color: #646464;
-    background: #f2f2f2;
-    border: none;
-    cursor: pointer;
-    margin: 4px;
-}
-
-.btn1:hover, .btn2:hover {
-    color: #373737;
-    background: lightslategray;
-    border: .5px solid lightgrey;
-
-}
-
-.footer-left {
-    float: left;
-    bottom: 0px;
-    height: 35px;
+footer {
     position: fixed;
+    bottom: 0;
     width: 100%;
-    
-}
-/*Right footer still needs adjusting*/
-.footer-right {
-    display: inline-block;
-    height: 35px;
-    bottom: 0px;
-    padding-left: 27px;
-    margin-top: 0px !important;
-    margin-right: 0px !important;
-    margin-bottom: 0px !important;
-    margin-left: 0px !important;
-
+    background-color: #ddd ;
+    border-top: 1px solid #aaa;
 }
 
-.footer-left, .footer-left a, .footer-right, .footer-right a {
-    margin: 10px;
-    color: #000;
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+}
+
+a {
+    color: black;
     text-decoration: none;
-    
-    
+}
+
+a:hover {
+    text-decoration: underline;
 }
